@@ -1,5 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 h1{
     font-size: 50px;
@@ -9,6 +11,9 @@ h1 span{
 }
 .header-area{
     display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 120px;
 }
 .half-width{
     width: 50%;
@@ -17,11 +22,46 @@ h1 span{
 .half-width img{
     width: 80%;
 }
+.half-width p{
+    
+    margin-bottom: 25px;
+    
+}
 
 .link-btn{
     text-decoration: none;
     background-image: linear-gradient(#FF8E6B,#FF6E50);
     color: #fff;
     padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+
+/* dream area css */
+
+.dream-area{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.dream-img{
+    width: 50%;
+    padding-left: 5%;
+}
+.dream-img img{
+    width: 80%;
+}
+.dream-img p{
+    margin-bottom: 25px;
+}
+.down-btn{
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(#FF8E6B,#FF6E50);
+    padding: 10px 40px;
+    font-weight: 700;
     border-radius: 5px;
 }

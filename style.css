@@ -7,3 +7,21 @@ h1{
 h1 span{
     color: #FFA500;
 }
+.header-area{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+
+.link-btn{
+    text-decoration: none;
+    background-image: linear-gradient(#FF8E6B,#FF6E50);
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 5px;
+}

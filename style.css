@@ -6,7 +6,10 @@ body{
 h1{
     font-size: 50px;
 }
-h1 span{
+h2{
+    font-size: 40px;
+}
+.oreng-color{
     color: #FFA500;
 }
 .header-area{
@@ -45,6 +48,7 @@ h1 span{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 120px;
     
 }
 .dream-img{
@@ -64,4 +68,37 @@ h1 span{
     padding: 10px 40px;
     font-weight: 700;
     border-radius: 5px;
+}
+
+/* experienc-area */
+.experienc-area{
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 120px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.box-shedow{
+    box-shadow: 10px 10px 30px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 30px 15px 30px;
+}
+#web-expo{
+    border-left: 7px solid;
+    border-image: linear-gradient(#FF6E50,#fca258);
+    border-image-slice: 1;
+}
+#baby-dev{
+   border-left: 7px solid;
+   border-image: linear-gradient(blue,cyan);
+   border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
